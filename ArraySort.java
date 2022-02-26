@@ -1,5 +1,4 @@
-import lombok.Getter;
-import lombok.Setter;
+
 
 public class ArraySort {
 
@@ -7,20 +6,41 @@ public class ArraySort {
     /**
      * Empty array for storing decreasing numbers
      */
-    @Getter @Setter
     private int[] numbersDown= {};
-
     /**
      * Empty array for storing increasing numbers
      */
-    @Getter @Setter
     private int[] numbersUp = {};
 
     /**
      * Array of twelve unsorted numbers
      */
-    @Getter @Setter
+
     private int[] numbers = {4, 0, 10, 7, 999, 2, 2, 2, 34, 43, 40, 9};
+
+    public int[] getNumbers() {
+        return numbers;
+    }
+
+    public void setNumbers(int[] numbers) {
+        this.numbers = numbers;
+    }
+
+    public int[] getNumbersDown() {
+        return numbersDown;
+    }
+
+    public void setNumbersDown(int[] numbersDown) {
+        this.numbersDown = numbersDown;
+    }
+
+    public int[] getNumbersUp() {
+        return numbersUp;
+    }
+
+    public void setNumbersUp(int[] numbersUp) {
+        this.numbersUp = numbersUp;
+    }
 
     //0
     //4
