@@ -1,25 +1,28 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
+package com.company;
 
-public class Main {
-
-
+public class Even_Fibonacci_Numbers {
     public static void main(String[] args) {
-        ArraySort arraySortObj = new ArraySort();
+
+        int A= 1;
+        int B = 2;
+        int tmp = 0;
+        int sum = 2;
+
+        //System.out.println(A);
+        //System.out.println(B);
 
 
-        System.out.println("----- Original list of numbers -----");
-        System.out.println(Arrays.toString(arraySortObj.getNumbers()));
+        while(tmp < 4_000_000){
+            tmp = A + B;
 
+            if(tmp % 2 == 0 && tmp < 4_000_000){
+                sum += tmp;
+            }
 
-        System.out.println("----- Increasing list of numbers -----");
-        System.out.println(Arrays.toString(arraySortObj.sortNumbersUp(arraySortObj.getNumbers())));
+            A = B;
+            B = tmp;
+        }
 
-
-        System.out.println("----- Decreasing list of numbers -----");
-        //TODO: Print number sorted down
-
+        System.out.println(sum);
     }
-
-
 }
