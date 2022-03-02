@@ -1,4 +1,4 @@
-package com.company;
+import Euler_Avery.Euler_Problem_1;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,5 +17,7 @@ public class Main {
          *
          */
 
+
+        Euler_Problem_1.eulerProblem1();
     }
 }
