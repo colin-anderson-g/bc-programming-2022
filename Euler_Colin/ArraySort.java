@@ -1,4 +1,4 @@
-
+package Euler_Colin;
 
 public class ArraySort {
 
