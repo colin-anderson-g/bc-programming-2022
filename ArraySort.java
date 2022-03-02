@@ -2,7 +2,6 @@
 
 public class ArraySort {
 
-
     /**
      * Empty array for storing decreasing numbers
      */
@@ -41,19 +40,6 @@ public class ArraySort {
     public void setNumbersUp(int[] numbersUp) {
         this.numbersUp = numbersUp;
     }
-
-    //0
-    //4
-    //7
-    //10
-    //2
-    //2
-    //2
-    //34
-    //43
-    //40
-    //9
-    //999
 
     /**
      * Method for number sorting, lowest to highest
