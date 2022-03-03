@@ -1,4 +1,4 @@
-package com.company;
+package Project_Euler;
 
 public class Multiples {
 

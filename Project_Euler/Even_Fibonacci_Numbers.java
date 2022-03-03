@@ -1,4 +1,4 @@
-package com.company;
+package Project_Euler;
 
 public class Even_Fibonacci_Numbers {
     public static void main(String[] args) {
